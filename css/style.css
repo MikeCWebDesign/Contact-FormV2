@@ -1,0 +1,107 @@
+/* HTML ELEMENTS */
+html, body {
+  margin: auto;
+  width: auto;
+  overflow-x: hidden;
+  min-height: 100%;
+}
+
+body {
+  background: url(https://images.pexels.com/photos/1166644/pexels-photo-1166644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+#Navigation {
+  margin-bottom: 1rem;
+}
+
+/* Font Styling  */
+.font1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: bolder;
+}
+
+.font2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 4rem;
+  letter-spacing: 5px;
+}
+
+.font3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.txt-cntr {
+  text-align: center;
+  width: 100%;
+}
+
+/* NAVIGATION STYLING */
+#navbarNav {
+  padding: 0.5rem 35%;
+  text-align: center;
+}
+
+.Contact-Title {
+  margin: 0;
+}
+
+/* BANNER STYLING  */
+.banner {
+  /* background: url(https://images.pexels.com/photos/5594336/pexels-photo-5594336.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
+}
+
+.imght {
+  width: 100%;
+  height: 75%;
+  padding-top: 2.5rem;
+}
+
+div.form-example {
+  display: table-row;
+}
+
+.btn-submit {
+  width: 100%;
+text-align: center;
+}
+
+#email, #name {
+  width: 365px;
+}
+
+.mrgtop {
+  padding: 4% 30% 2rem;
+  text-align: center;
+}
+
+.btn-section {
+  /* padding: 1% 30%; */
+}
+
+#btn-section {
+  width: 100%;
+  text-align: center;
+}
+
+.form-pad {
+  padding: 0 40%;
+}
+
+/* Footer Section  */
+
+.pfooter {
+  padding: 0.5rem 0;
+  margin: 0;
+  text-align: center;
+}
+
+p.pfooter.font3 {
+  color: white;
+}
