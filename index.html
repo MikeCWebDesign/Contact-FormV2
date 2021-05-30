@@ -16,13 +16,13 @@
   <link rel="stylesheet" href="css/style.css" />
 
   <!-- Favicon -->
-  <link rel="icon" href="favicon.ico">
+  <!-- <link rel="icon" href="favicon.ico"> -->
 
   <!-- Font Awesome -->
 
-  <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
+  <!-- <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
   <link href="fontawesome/css/brands.css" rel="stylesheet">
-  <link href="fontawesome/css/solid.css" rel="stylesheet">
+  <link href="fontawesome/css/solid.css" rel="stylesheet"> -->
 
   <!-- Google Fonts -->
 
@@ -91,79 +91,130 @@
 
   </section>
 
-  <section id="banner" class="mb-5">
+  <section id="banner mb-5">
 
-    <div class="container-fluid">
+    <div class="container-fluid mb-5">
 
       <div class="row mrgtop">
 
-        <h2 class="font2 mb-4">Contact Form</h2>
+        <div class="col-3">
 
-        <p class="font3 mb-4">Please fill in the information below: </p>
+        </div>
 
-        <hr>
+        <div class="col-6">
+          <h2 class="font2 mb-4">Contact Form</h2>
+
+          <p class="font3 mb-4">Please fill in the information below and we'll be in contact with you as soon as possible. </p>
+
+        </div>
+
+        <div class="col-3">
+
+        </div>
+
+
+
       </div>
-      <form class="form-pad" action="" method="get" class="form-example">
 
+          <hr>
 
-        <div class="form-example col-12">
+      <div class="row">
 
+      <div class="col-4">
 
-          <div class="row mb-4">
+      </div>
 
-            <div class="col-6 txt-cntr">
-              <label class="font3 mb-4" for="name">Enter your full name: </label>
-            </div>
+      <div class="col-4">
 
-            <div class="col-7">
-              <input type="text" name="name" id="name" required>
-            </div>
+        <form class="form-pad" action="" method="get" class="form-example">
 
-          </div>
+          <div class="form-example">
 
-        </div>
+            <div class="row mb-4">
 
-        <div class="form-example ">
+              <div class="col-12 txt-cntr">
+                <label class="font3 mb-4" for="name">Enter your full name: </label>
+              </div>
 
-          <div class="row mb-4">
+              <div class="col-6">
+                <input class="width-name" type="text" name="name" id="name" placeholder="First Name" required>
+              </div>
 
-            <div class="col-6 txt-cntr">
-              <label class="font3 mb-4" for="email">Enter your email: </label>
-
-
-            </div>
-
-            <div class="col-7">
-              <input type="email" name="email" id="email" required>
-            </div>
-
-          </div>
-
-        </div>
-
-        <div class="form-example">
-
-          <div class="row mb-4">
-
-            <div class="col-12 txt-cntr ">
-
-              <label class="font3 mb-4" for="message">Please enter your message below: </label>
-              <textarea type="message" name="name" rows="8" cols="50" required></textarea>
+              <div class="col-6">
+                <input class="width-name" type="text" name="name" id="name" placeholder="Last Name" required>
+              </div>
 
             </div>
 
           </div>
 
-        </div>
+          <div class="form-example ">
 
-        <div class="btn-section">
-          <hr class="mb-5">
-            <div class="btn-submit">
-              <input class="btn btn-lg btn-primary" type="submit" value="Submit">
+            <div class="row mb-4">
+
+              <div class="col-6 txt-cntr">
+                <label class="font3 mb-4" for="email">Enter your email: </label>
+
+
+              </div>
+
+              <div class="col-6">
+                <input class="padding-input" type="email" name="email" id="email" placeholder="Enter your email here" required>
+              </div>
+
             </div>
-        </div>
 
-      </form>
+          </div>
+
+  <!-- Phone Number Input  -->
+
+          <div class="form-example ">
+
+            <div class="row mb-4">
+
+              <div class="col-6 txt-cntr">
+                <label class="font3 mb-4" for="phone">Enter your email: </label>
+              </div>
+
+              <div class="col-6">
+                <input class="padding-input" type="number" name="phone" id="phone" placeholder="Enter your phone number" required>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="form-example">
+
+            <div class="row mb-4">
+
+              <div class="col-12 txt-cntr ">
+
+                <label class="font3 mb-4" for="message">Please enter your message below: </label>
+              </div>
+
+              <div class="col-12">
+                <textarea class="messagearea" type="message" placeholder="Please type here for your message" name="name" rows="8" cols="90" required></textarea>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="btn-section">
+            <hr class="mb-5">
+              <div class="btn-submit mb-5">
+                <input class="btn btn-lg btn-primary" type="submit" value="Submit">
+              </div>
+          </div>
+
+        </form>
+      </div>
+
+      <div class="col-4">
+
+      </div>
+      </div>
 
     </div>
 
@@ -176,7 +227,7 @@
 
     <div class="container-fluid">
 
-      <div class="row bg-primary footer-section fixed-bottom">
+      <div class="row bg-primary footer-section">
 
         <div id="footer-col-main" class="col-12">
           <p class="pfooter font3">&copy; MC Web Design 2020-2021 </p>
@@ -187,6 +238,10 @@
     </div>
 
   </footer>
+
+  <div id="alert" class="alert alertmrg alert-primary" role="alert">
+    Please click <a href="https://mikecwebdesign.github.io/HomeV4/" class="alert-link">here</a> to go back to main website.
+  </div>
 
 
   <!-- ========================================================================================= -->

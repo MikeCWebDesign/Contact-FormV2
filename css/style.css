@@ -13,6 +13,10 @@ body {
   background-attachment: scroll;
 }
 
+.messagearea, .padding-input, .width-name {
+  padding: 10px;
+}
+
 #Navigation {
   margin-bottom: 1rem;
 }
@@ -72,12 +76,16 @@ div.form-example {
 text-align: center;
 }
 
-#email, #name {
-  width: 365px;
+#email, #phone {
+  width: 207%;
+}
+
+.width-name {
+  width: 100%;
 }
 
 .mrgtop {
-  padding: 4% 30% 2rem;
+  padding: 4% 0 2rem;
   text-align: center;
 }
 
@@ -91,7 +99,7 @@ text-align: center;
 }
 
 .form-pad {
-  padding: 0 40%;
+  padding: 0;
 }
 
 /* Footer Section  */
@@ -104,4 +112,11 @@ text-align: center;
 
 p.pfooter.font3 {
   color: white;
+}
+
+/* Alert Section  */
+
+#alert {
+  margin: 0;
+  text-align: center;
 }
